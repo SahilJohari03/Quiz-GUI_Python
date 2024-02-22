@@ -23,6 +23,6 @@ quiz = QuizBrain(question_bank)
 
 quiz_ui = QuizInterface(quiz)
 
-
+#Project completion box
 print("You've completed the quiz")
 print(f"Your final score was: {quiz.score}/{quiz.question_no}")
